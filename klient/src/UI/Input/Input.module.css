@@ -1,0 +1,22 @@
+@import "../Ostatne/farby.css";
+
+.input {
+  border: 3px solid var(--secondary);
+  border-radius: 5px;
+  background: none;
+  transition: 0.3s;
+}
+
+.input:focus {
+  border: 3px solid var(--select);
+  box-shadow: var(--select) 0px 0px 15px;
+}
+
+.cisty {
+  border: none;
+}
+
+.cisty:focus {
+  box-shadow: none;
+  border: none;
+}

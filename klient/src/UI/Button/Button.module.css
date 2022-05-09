@@ -1,0 +1,75 @@
+@import "../Ostatne/farby.css";
+
+.button {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.zmazat_menu {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.primarne {
+  border: none;
+  border-radius: 4px;
+  background-color: var(--primary);
+  color: var(--text-secondary);
+  margin-left: 15px;
+
+  height: 40px;
+  font-size: medium;
+  padding: 10px;
+}
+
+.primarne:hover {
+  background-color: var(--select);
+}
+
+.sekundarne {
+  border: 3px solid var(--primary);
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--text-secondary);
+
+  height: 40px;
+  font-size: medium;
+  padding: 10px;
+}
+
+.sekundarne:hover {
+  background-color: var(--select);
+}
+
+.zmazat {
+  border: none;
+  border-radius: 4px;
+  background-color: var(--warning);
+  color: var(--text-secondary);
+
+  height: 40px;
+  font-size: medium;
+  padding: 10px;
+}
+
+.zmazat:hover {
+  filter: brightness(120%);
+}
+
+.prihlasenie {
+  background-color: var(--secondary);
+  color: var(--text);
+
+  border: none;
+  border-radius: 4px;
+
+  height: 40px;
+  width: 120px;
+  font-size: medium;
+}
+
+.prihlasenie:hover {
+  background-color: var(--select);
+
+}

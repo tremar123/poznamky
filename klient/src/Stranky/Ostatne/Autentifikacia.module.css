@@ -1,0 +1,46 @@
+@import "../../UI/Ostatne/farby.css";
+
+.main {
+  padding-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: large;
+  background-image: linear-gradient(to right, #072b50, #004b73, #006e95, #0092b2, #00b8cb);
+}
+
+.div {
+  background-color: var(--primary);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.div input {
+  display: block;
+  margin: 30px 0 0 0;
+  height: 40px;
+  width: 97%;
+  font-size: inherit;
+}
+
+.div button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.link {
+  margin: 0 30px 0 30px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: larger;
+}
+
+.link_selected {
+  border-bottom: 4px solid var(--select);
+  color: var(--select);
+}

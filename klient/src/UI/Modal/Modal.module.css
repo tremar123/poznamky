@@ -1,0 +1,32 @@
+.modal {
+  background-color: white;
+  width: 400px;
+  height: 180px;
+  border-radius: 15px;
+  box-shadow:  10px 10px 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.modal button {
+  margin-left: auto;
+  width: 120px;
+}
+
+.modal h1, p {
+  margin: 0px;
+}
+
+.pozadie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000ab;
+  backdrop-filter: blur(1px);
+  z-index: 2;
+}

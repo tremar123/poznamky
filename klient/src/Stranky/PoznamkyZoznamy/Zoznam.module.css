@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 30px auto auto auto;
+  height: 95%;
+}
+
+@media screen and (max-width: 768px) {
+  .form {
+    width: 90%;
+  }
+}
+
+.nazov {
+  margin-bottom: 30px;
+  font-size: xx-large;
+  color: var(--text-secondary);
+}
+
+.ul {
+  padding: 0;
+}
+
+.tlacitka {
+  display: flex;
+  margin-top: 40px;
+}
+
+.zrusit {
+  margin-left: auto;
+}

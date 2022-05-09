@@ -1,0 +1,144 @@
+@import "../../UI/Ostatne/farby.css";
+
+.sidenav {
+  height: 100%;
+  width: 70px;
+  position: fixed;
+  z-index: 1;
+  top: 70px;
+  left: 0;
+  background-color: var(--primary);
+  overflow-x: hidden;
+  transition: 0.2s;
+}
+
+.sidenav_open {
+  width: 250px;
+}
+
+.main {
+  padding: 70px 0 0 70px;
+  transition: 0.2s;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.main_open {
+  padding: 70px 0 0 250px;
+}
+
+.menu {
+  background: none;
+  border: none;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  color: var(--text-secondary);
+  display: inline-block;
+}
+
+.menu:hover,
+.link:hover,
+.link_open:hover {
+  color: var(--select);
+  cursor: pointer;
+}
+
+.link {
+  margin-top: 20px;
+  height: 70px;
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: 0.2s;
+  padding: 5px;
+}
+
+.link h6,
+.menu h6 {
+  margin-top: -5px;
+}
+
+.link_open {
+  margin-top: 20px;
+  padding-left: 20px;
+  height: 52px;
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: xx-large;
+  transition: 0.2s;
+}
+
+.link_open h6 {
+  display: inline-block;
+  margin: 0 0 25px 15px;
+  vertical-align: middle;
+}
+
+.link_open svg {
+  display: inline-block;
+}
+
+.selected_link {
+  color: var(--text);
+  border-right: 5px solid var(--select);
+  background-color: var(--secondary);
+}
+
+.p {
+  text-align: center;
+  width: fit-content;
+  display: inline-block;
+  color: var(--text-secondary);
+  font-size: large;
+  margin-right: 20px;
+}
+
+.button {
+  background: none;
+  border: none !important;
+  font-family: inherit;
+  position: fixed;
+  bottom: 0;
+  width: 70px;
+  left: 0;
+}
+
+.button_open {
+  text-align: left;
+  width: 250px;
+  display: block !important;
+}
+
+@media screen and (max-width: 768px) {
+  .sidenav {
+    width: 0;
+  }
+
+  .sidenav_open {
+    width: 250px;
+  }
+
+  .main {
+    padding-left: 0;
+  }
+
+  .main_open {
+    padding-left: 250px;
+  }
+
+  .button {
+    display: none;
+  }
+}
+
+.main {
+  background-image: linear-gradient(to right top, #072b50, #005a82, #008d9d, #00be9a, #91eb86);
+}

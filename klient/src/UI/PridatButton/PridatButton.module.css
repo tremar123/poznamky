@@ -1,0 +1,42 @@
+@import "../Ostatne/farby.css";
+
+.button {
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--primary);
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+  color: var(--text);
+}
+
+.button svg {
+  color: var(--text-secondary);
+
+}
+
+.button svg:hover {
+  color: var(--text);
+
+}
+
+.button:hover {
+  background-color: var(--select);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    right: 30px;
+    bottom: 30px;
+    width: 60px;
+    height: 60px;
+  }
+}

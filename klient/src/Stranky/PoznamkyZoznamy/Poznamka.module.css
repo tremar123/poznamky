@@ -1,0 +1,48 @@
+ @import "./../../UI/Ostatne/farby.css";
+
+.textarea {
+  border: none;
+  font-family: inherit;
+  resize: none;
+  margin-bottom: 30px;
+  height: 70%;
+  font-size: large;
+  background-color: #B5FFF8;
+  border-radius: 5px;
+}
+
+.textarea:focus-visible {
+  outline: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 30px auto auto auto;
+  height: 95%;
+}
+
+@media screen and (max-width: 768px) {
+  .form {
+    width: 90%;
+  }
+}
+
+.nazov {
+  margin-bottom: 30px;
+  font-size: xx-large;
+  color: var(--text-secondary);
+}
+
+.nazov:focus-visible {
+  outline: 0;
+}
+
+.tlacitka {
+  display: flex;
+}
+
+.zrusit {
+  margin-left: auto;
+}
